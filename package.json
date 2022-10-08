@@ -1,19 +1,26 @@
 {
   "name": "easy-template-x-extension-html",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "An extension for the easy-template-x package that allows you to use html to style content in a document.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "microbundle",
+    "dev": "microbundle watch"
   },
+  "type": "module",
+  "source": "src/index.js",
+  "main": "./dist/index.cjs",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cvaize/easy-template-x-extension-html.git"
   },
   "keywords": [
     "easy-template-x",
-    "easy-template-x-extension-html",
-    "easy-template-x-html",
     "docx",
     "html",
     "template",
@@ -30,5 +37,8 @@
   "license": "ISC",
   "dependencies": {
     "easy-template-x": "^3.0.2"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
   }
 }

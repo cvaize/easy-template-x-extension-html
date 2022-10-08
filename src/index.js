@@ -1,11 +1,11 @@
-const {
+import {
     DocxParser,
     XmlTextNode,
     XmlGeneralNode,
     TextPlugin,
     XmlNode,
     stringValue,
-} = require('easy-template-x')
+} from 'easy-template-x'
 
 function _defineProperty(obj, key, value) {
     if (key in obj) {
@@ -374,5 +374,5 @@ class HtmlPlugin extends TextPlugin {
 
 }
 
-module.exports = HtmlPlugin
+export default HtmlPlugin
 
