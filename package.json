@@ -1,6 +1,6 @@
 {
   "name": "easy-template-x-extension-html",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An extension for the easy-template-x package that allows you to use html to style content in a document.",
   "scripts": {
     "build": "microbundle",
@@ -35,6 +35,10 @@
   "homepage": "https://github.com/cvaize/easy-template-x-extension-html#readme",
   "author": "Dmitry Orlov",
   "license": "ISC",
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ],
   "dependencies": {
     "easy-template-x": "^3.0.2"
   },

@@ -56,12 +56,12 @@ fs.writeFileSync('myTemplate - output.docx', doc);
 
 ```text
 Build "easy-template-x-extension-html" to dist:
-      2.38 kB: index.cjs.gz
-      2.12 kB: index.cjs.br
-       1650 B: index.modern.js.gz
-       1482 B: index.modern.js.br
-      2.38 kB: index.module.js.gz
-      2.12 kB: index.module.js.br
-      2.41 kB: index.umd.js.gz
-      2.14 kB: index.umd.js.br
+       1692 B: index.cjs.gz
+       1507 B: index.cjs.br
+       1660 B: index.modern.js.gz
+       1493 B: index.modern.js.br
+       1691 B: index.module.js.gz
+       1517 B: index.module.js.br
+       1776 B: index.umd.js.gz
+       1577 B: index.umd.js.br
 ```
