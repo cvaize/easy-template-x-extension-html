@@ -221,6 +221,14 @@ class HtmlObject {
     }
 }
 
+const BOLD_NODE = 'w:b'
+const COMPLEX_SCRIPT_BOLD_NODE = 'w:bCs'
+
+const ITALIC_NODE = 'w:i'
+const COMPLEX_SCRIPT_ITALIC_NODE = 'w:iCs'
+
+const UNDERLINE_NODE = 'w:u'
+
 class HtmlPlugin extends TextPlugin {
     constructor(...args) {
         super(...args);
@@ -282,13 +290,6 @@ class HtmlPlugin extends TextPlugin {
                     this.copyAttributes(propertyRunPropNode, newPropertyRunPropNode);
                     XmlNode.appendChild(newRunPropNode, newPropertyRunPropNode);
                 }
-                const BOLD_NODE = 'w:b'
-                const COMPLEX_SCRIPT_BOLD_NODE = 'w:bCs'
-
-                const ITALIC_NODE = 'w:i'
-                const COMPLEX_SCRIPT_ITALIC_NODE = 'w:iCs'
-
-                const UNDERLINE_NODE = 'w:u'
 
                 if (htmlObject.wrapTags.has('b')) {
                     this.addProperty(newRunPropNode, BOLD_NODE)
