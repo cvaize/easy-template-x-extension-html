@@ -1,0 +1,31 @@
+{
+  "name": "easy-template-x-extension-html",
+  "version": "0.0.1",
+  "description": "An extension for the easy-template-x package that allows you to use html to style content in a document.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvaize/easy-template-x-extension-html.git"
+  },
+  "keywords": [
+    "easy-template-x",
+    "docx",
+    "template",
+    "word",
+    "office",
+    "microsoft",
+    "ms"
+  ],
+  "bugs": {
+    "url": "https://github.com/cvaize/easy-template-x-extension-html/issues"
+  },
+  "homepage": "https://github.com/cvaize/easy-template-x-extension-html#readme",
+  "author": "Dmitry Orlov",
+  "license": "ISC",
+  "dependencies": {
+    "easy-template-x": "^3.0.2"
+  }
+}
